@@ -1,0 +1,26 @@
+<meta charset='utf-8'>
+<link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css'>
+<div class='container'>
+	<form action='05.multiOut.jsp'>
+		<fieldset>
+			<legend>성별</legend>
+			<input type='radio' name='gender' value='남'>남
+			<input type='radio' name='gender' value='여'>여
+		</fieldset>
+		<fieldset>
+			<legend>수신</legend>
+			<input type='checkbox' name='letter' value='politics'>정치
+			<input type='checkbox' name='letter' value='economics'>경제
+			<input type='checkbox' name='letter' value='culture'>문화
+		</fieldset>
+		<fieldset>
+			<legend>직업</legend>
+			<select name='job' multiple>
+				<option>개발자</option>
+				<option>기획자</option>
+				<option>DBA</option>
+			</select>
+		</fieldset>
+		<input type='submit'/>
+	</form>
+</div>
