@@ -1,0 +1,34 @@
+<!-- 
+기존 장바구니 앱에 기능을 추가하는 유지보수를 한다.
+장바구니에 물건을 담을 때, 기존 물건을 버리지 않는다.
+장바구니에서 일부 물건을 꺼낸다.
+장바구니에 중복된 물건을 담지 않는다.
+
+main.html
+상품 목록을 조회한다.
+
+cartProc.jsp
+장바구니에 물건을 담는다.
+
+cartOut.jsp
+장바구니의 물건을 조회한다.
+
+cartDelProc.jsp
+장바구니에서 물건을 꺼낸다.
+-->
+<meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css'>
+<div class='container'>
+	<h3>상품</h3>
+	<form action='cartProc.jsp' method='post'>
+		<ul>
+			<li>노트북 <input type='checkbox' name='product' value='노트북'></li>
+			<li>모니터 <input type='checkbox' name='product' value='모니터'></li>
+			<li>마우스 <input type='checkbox' name='product' value='마우스'></li>
+			<li>메모리 <input type='checkbox' name='product' value='메모리'></li>
+		</ul>
+		<button type='submit'>담기</button>
+		<button type='submit' formaction='cartOut.jsp'>보기</button>
+	</form>
+</div>

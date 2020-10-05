@@ -1,0 +1,16 @@
+<meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css'>
+<div class='container'>
+	<h3>상품</h3>
+	<form action='cartProc.jsp' method='post'>
+		<ul>
+			<li>노트북 <input type='checkbox' name='product' value='노트북'></li>
+			<li>모니터 <input type='checkbox' name='product' value='모니터'></li>
+			<li>마우스 <input type='checkbox' name='product' value='마우스'></li>
+			<li>메모리 <input type='checkbox' name='product' value='메모리'></li>
+		</ul>
+		<button type='submit'>담기</button>
+		<button type='submit' formaction='cartOut.jsp'>보기</button>
+	</form>
+</div>
