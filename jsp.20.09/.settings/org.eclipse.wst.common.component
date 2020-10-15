@@ -2,6 +2,7 @@
     <wb-module deploy-name="jsp.20.09">
         <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/res"/>
         <property name="context-root" value="jsp.20.09"/>
         <property name="java-output-path" value="/jsp.20.09/build/classes"/>
     </wb-module>
